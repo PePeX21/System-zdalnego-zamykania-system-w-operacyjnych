@@ -1,0 +1,1 @@
+# System-zdalnego-zamykania-system-w-operacyjnych
