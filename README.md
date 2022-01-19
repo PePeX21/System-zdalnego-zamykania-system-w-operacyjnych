@@ -5,7 +5,7 @@ plik server-thread.c nalez skompilowac z uzyciem flagi -pthread:
 gcc server-thread.c -o server-thread -pthread
 
 klienta mozna uruchomic w kazdym ide dzialajacym z biblioteka Swing
-lub uruchamiaja plik wykonywalny sk.jar znajdujacy sie w folderze out
+lub uruchamiajac plik wykonywalny sk.jar znajdujacy sie w folderze out
 
 ## praca z programem
 
