@@ -134,8 +134,8 @@ public class ClientApplication extends JFrame {
                 jTextArea.append("- wrong password\n");
             }
             else if (serverMessage.equals("shutdown")) {
-                System.exit(0);
-                //Runtime.getRuntime().exec("shutdown.exe -s -t 0");
+                //System.exit(0);
+                Runtime.getRuntime().exec("shutdown.exe -s -t 0");
             }
             else if (serverMessage.contains("new_caddr_")) {
                 serverMessage = serverMessage.replaceAll("new_caddr_", "");
