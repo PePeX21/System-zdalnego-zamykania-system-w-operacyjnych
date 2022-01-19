@@ -1,5 +1,12 @@
 # System-zdalnego-zamykania-system-w-operacyjnych
-implementacja serwera w jezyku C i klienta w jezyku Java
+implementacja serwera w jezyku C znajduje sie w pliku server-thread.c
+i klienta w jezyku Java znajduje sie w folderze src w pliku ClientApplication.java
+
+serwer tworzy watek dla nowego polaczenia z klientem i komunikuje sie z nim za pomoca interfejsu gniazd BSD
+client w javie do komunikacji wykorzystuje bibloteki java.io.InputStreamReader i java.io.PrintWriter
+do stworzenia gniazd komunikacyjnych uzyta jest biblioteka java.net.Socket
+GUI aplikacji stworzone jest z wykorzystaniem biblioteki javax.swing
+
 ## Uruchomienie 
 plik server-thread.c nalez skompilowac z uzyciem flagi -pthread:
 gcc server-thread.c -o server-thread -pthread
