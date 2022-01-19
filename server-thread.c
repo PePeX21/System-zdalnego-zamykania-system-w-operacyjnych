@@ -42,7 +42,7 @@ void* cthread(void* arg) {
     char* message;
     int j, n;
     
-    printf("\nnew connection: %s na dyskryptorze: %d\n", inet_ntoa((struct in_addr)c->caddr.sin_addr), c->cfd);
+    printf("\nnew connection: %s na deskryptorze: %d\n", inet_ntoa((struct in_addr)c->caddr.sin_addr), c->cfd);
     
     pthread_mutex_lock(&mutex); // sekcja krytyczna  
     strcpy(connections_caddr[counter], inet_ntoa((struct in_addr)c->caddr.sin_addr));
