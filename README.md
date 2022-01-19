@@ -5,7 +5,7 @@ i klienta w jezyku Java znajduje sie w folderze src w pliku ClientApplication.ja
 serwer tworzy watek dla nowego polaczenia z klientem i komunikuje sie z nim za pomoca interfejsu gniazd BSD
 client w javie do komunikacji wykorzystuje bibloteki java.io.InputStreamReader i java.io.PrintWriter
 do stworzenia gniazd komunikacyjnych uzyta jest biblioteka java.net.Socket
-GUI aplikacji stworzone jest z wykorzystaniem biblioteki javax.swing
+  GUI aplikacji stworzone jest z wykorzystaniem biblioteki javax.swing
 
 ## Uruchomienie 
 plik server-thread.c nalez skompilowac z uzyciem flagi -pthread:
